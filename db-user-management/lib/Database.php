@@ -2,13 +2,10 @@
 
 include "config/config.php";
 
-
-// Class Databse
-
+// Class Database
 class  Database{
 
   public $pdo;
-
 
   // Construct Class
   public function __construct(){
@@ -27,12 +24,5 @@ class  Database{
 
 
   }
-
-
-
-
-
-
-
 
 }
